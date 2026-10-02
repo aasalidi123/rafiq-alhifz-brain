@@ -1,9 +1,9 @@
-brain_version: RH-2026-10-02-019
-generated_from_commit: 35d0eb0e2efca6cba363937771c285d397a80d4a
-SOURCE_COMMIT: 35d0eb0e2efca6cba363937771c285d397a80d4a
+brain_version: RH-2026-10-02-021
+generated_from_commit: 2af6056eb47251d96a44cdf49566dc228aab7058
+SOURCE_COMMIT: 2af6056eb47251d96a44cdf49566dc228aab7058
 UPDATED_AT: 2026-10-02
 SOURCE_STATUS: committed
-SOURCE_HASH: 6d70394488ceac83766c1aae40b1ca229b7e2789f6a695369760678a0963a18e
+SOURCE_HASH: 5960322be6391e502c2897b16e09b7dce70fb8aa881aa70ccfbdf4207e7eaebb
 
 # الملف التمهيدي — رفيق الحفظ
 
@@ -28,8 +28,8 @@ SOURCE_HASH: 6d70394488ceac83766c1aae40b1ca229b7e2789f6a695369760678a0963a18e
 
 ---
 project: rafiq-alhifz-app
-brain_version: RH-2026-10-02-019
-generated_from_commit: 35d0eb0e2efca6cba363937771c285d397a80d4a
+brain_version: RH-2026-10-02-021
+generated_from_commit: 2af6056eb47251d96a44cdf49566dc228aab7058
 updated_at: 2026-10-02
 canonical_source: docs/brain
 ---
@@ -68,7 +68,7 @@ canonical_source: docs/brain
 
 ## مراجعة تقرير نموذج آخر
 
-[تقرير Claude](log/2026-10-02-Claude-063.md) روجع وفق INGEST؛ تحقق القائد المنقول أن Claude قرأ BOOTSTRAP العام وأجاب الثمانية صحيحة. حذف قسم الاختبار يحتاج طلبًا مستقلًا (O-020)؛ قيد Perplexity باقٍ (O-022).
+[تقرير Claude012](log/2026-10-02-Claude-066.md) روجع على019؛ GREEN-831 مقترح بلا اعتماد، وUnverified مؤرشف فقط. قبول القراءة السابق ثابت؛ حذف الاختبار بطلب مستقل (O-020) وقيد Perplexity باقٍ (O-022).
 
 ## ما لم يبدأ أو لم يُربط
 
@@ -170,17 +170,17 @@ canonical_source: docs/brain
 
 ## آخر ثلاثة سجلات
 
-### 2026-10-02 — [2026-10-02-Claude-063.md](log/2026-10-02-Claude-063.md)
-
-ملخص مختصر؛ اقرأ السجل.
-
 ### 2026-10-02 — [2026-10-02-Codex-mirror-064.md](log/2026-10-02-Codex-mirror-064.md)
 
 ملخص مختصر؛ اقرأ السجل.
 
 ### 2026-10-02 — [2026-10-02-Codex-brain-065.md](log/2026-10-02-Codex-brain-065.md)
 
-سجّلت إفادة المالك أن workflow المرآة نجح وأن Claude قرأ BOOTSTRAP العام وأجاب الأسئلة الثمانية صحيحة. وثّقت …
+سجّلت إفادة المالك أن w…
+
+### 2026-10-02 — [2026-10-02-Claude-066.md](log/2026-10-02-Claude-066.md)
+
+روجع تقرير Claude المبني على012 مقابل019؛ المعرف GREEN-831 مقترح فقط. أُرشف Unverified دون اعتماد، وحُفظ ترتيب العمل الأحدث.
 
 ## البنود المفتوحة
 
