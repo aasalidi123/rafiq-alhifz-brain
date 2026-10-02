@@ -1,9 +1,8 @@
-brain_version: RH-2026-10-02-021
-generated_from_commit: 2af6056eb47251d96a44cdf49566dc228aab7058
-SOURCE_COMMIT: 2af6056eb47251d96a44cdf49566dc228aab7058
+brain_version: RH-2026-10-02-030
+generated_from_commit: e2340f9b59d46431463da1c0190c32b429e13145
+SOURCE_COMMIT: e2340f9b59d46431463da1c0190c32b429e13145
 UPDATED_AT: 2026-10-02
-SOURCE_STATUS: committed
-SOURCE_HASH: 5960322be6391e502c2897b16e09b7dce70fb8aa881aa70ccfbdf4207e7eaebb
+SOURCE_HASH: 36b7273ef6b42a76a80d77abb81db4dd214f6178b72e96e324b9e3ed668f4abd
 
 # HOT — رفيق الحفظ
 
@@ -39,12 +38,12 @@ SOURCE_HASH: 5960322be6391e502c2897b16e09b7dce70fb8aa881aa70ccfbdf4207e7eaebb
 - التطبيق محلي؛ قبول الهاتف باقٍ.
 - النواة والمحتوى مختبران؛ الحقوق والمراجعة العلمية مفتوحتان.
 - الخادم والحسابات لم تبدأ؛ النشر مؤجل.
-- المرآة وقراءة Claude ناجحتان وفق تحقق القائد المنقول؛ وصول Perplexity متعذر (O-022).
+- المرآة على021 بحسب المالك؛ إصلاحها محلي وينتظر GitHub (O-023).
 - لا تجربة هاتف؛ Codex لم يتحقق من GitHub مباشرة.
 
 ## الخطوة التالية
 
-المرآة تعمل وقراءة Claude اجتازت الاختبار بحسب إفادة المالك. الخطوة التالية معالجة وصول القائد إلى محتوى الملفات (O-022)؛ استخدم HOT.md لصقًا عند الحاجة. راقب موعد انتهاء BRAIN_MIRROR_TOKEN غير المعروف (O-021). لا حذف لقسم الاختبار دون طلب مستقل (O-020).
+تحقق من workflow الجديد والمرآة (O-023) بعد رفع مستقل بتفويض المالك. احتياط القائد لصق HOT.md (O-022)؛ راقب انتهاء اعتماد المرآة (O-021). GREEN-831 تجريبي ويُحذف مع القسم (O-020).
 
 ## سياسة الأسرار
 
@@ -59,3 +58,4 @@ SOURCE_HASH: 5960322be6391e502c2897b16e09b7dce70fb8aa881aa70ccfbdf4207e7eaebb
 - TEST_EXECUTOR: Codex on Windows
 - TEST_RULE: لا تنفيذ قبل قراءة STATE.md
 - TEST_SECRET_POLICY: Never store secrets
+- حالة تجريبي فقط: TEST_RETURN_TOKEN: GREEN-831 (المصدر: تقرير Claude في السجل 067، قرار تجريبي لاختبار الذهاب والعودة، يُحذف مع القسم)
