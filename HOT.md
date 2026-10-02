@@ -1,8 +1,8 @@
-brain_version: RH-2026-10-02-030
+brain_version: RH-2026-10-02-033
 generated_from_commit: e2340f9b59d46431463da1c0190c32b429e13145
 SOURCE_COMMIT: e2340f9b59d46431463da1c0190c32b429e13145
 UPDATED_AT: 2026-10-02
-SOURCE_HASH: 36b7273ef6b42a76a80d77abb81db4dd214f6178b72e96e324b9e3ed668f4abd
+SOURCE_HASH: 1f59312fcc76200410e41203525f5d7a3342952af001abbfe59baaa86ac5c3b3
 
 # HOT — رفيق الحفظ
 
@@ -43,19 +43,8 @@ SOURCE_HASH: 36b7273ef6b42a76a80d77abb81db4dd214f6178b72e96e324b9e3ed668f4abd
 
 ## الخطوة التالية
 
-تحقق من workflow الجديد والمرآة (O-023) بعد رفع مستقل بتفويض المالك. احتياط القائد لصق HOT.md (O-022)؛ راقب انتهاء اعتماد المرآة (O-021). GREEN-831 تجريبي ويُحذف مع القسم (O-020).
+تحقق من workflow الجديد والمرآة (O-023) بعد رفع مستقل بتفويض المالك. احتياط القائد لصق HOT.md (O-022)؛ راقب انتهاء اعتماد المرآة (O-021). أُغلق تحقق القراءة والعودة في 2026-10-02؛ سجل النتيجة في D-040.
 
 ## سياسة الأسرار
 
 لا تحفظ أو تلصق أسرارًا أو بيانات طلاب؛ الاعتماد في ملفات محلية مستبعدة أو مخزن الخدمة. لا قيمة سرية في العقل.
-
-## Shared Brain Test
-- TEST_ID: RH-BRAIN-7429
-- TEST_NUMBER: 381
-- TEST_COLOR: أخضر زمردي
-- TEST_SOURCE: docs/brain/STATE.md
-- TEST_CANONICAL: GitHub private repository
-- TEST_EXECUTOR: Codex on Windows
-- TEST_RULE: لا تنفيذ قبل قراءة STATE.md
-- TEST_SECRET_POLICY: Never store secrets
-- حالة تجريبي فقط: TEST_RETURN_TOKEN: GREEN-831 (المصدر: تقرير Claude في السجل 067، قرار تجريبي لاختبار الذهاب والعودة، يُحذف مع القسم)
